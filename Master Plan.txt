@@ -1,0 +1,26 @@
+Suggested classes:
+0, 1, 2 (2 for homework)
+3, 4, 5 (5 for homework)
+6, 7, 8
+9, 10
+
+Program 0: Number guessing game
+
+0. Set up environment and give an overview of the class.
+1. I/O.  Write a program which accepts a user's name and prints it.
+2. Control flow.  Write a program that allows the user to guess a random number and prints success and failure.  This item may be mostly homework.
+
+3. Validation.  Check the input of the program so that it does not crash.  Write unit tests which validate that it handles the different cases of input correctly.  Introduce untrustworthiness of input.
+
+Program 1: Text arena RPG
+(suggested lessons 
+
+4. Data classes.  Create a character sheet class.  Using the I/O concepts from lesson 1, accept it from the user.  Introduce arbitrary content rules (no more than X ability points) to reinforce concepts from lesson 3.
+5. Data persistence.  Serialize and deserialize (pickle) the class to enable saving.  Introduce file I/O.  Hint at the problem with using pickle.
+6. Polymorphism.  Make an enemy class that causes the game to be won when it dies, as opposed to lost when the player class dies.  Allow students to suggest differences and implement them.
+7. Documentation and commenting.  Make a basic arena mechanic where the player fights the enemy with probabilities (statistics; simple as possible.).  Document it well.
+8. Code sharing.  Have everyone make a github account and commit their programs to it.
+
+Program 2: Text RPG
+9. Collaboration.  Make everyone pass the project to a partner (who will fork it).
+10. Arrays and bounds.  Create a 2D map and the ability for the player to move around in it.  Validate array bounds.  Serialize and deserialize the map, reinforcing concepts from lesson 5.
